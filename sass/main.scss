@@ -1,8 +1,21 @@
-@import "./variables";
 @import "./utils/variables";
-@import "./components/page-header";
-
-$color: #259225;
-body {
-  background-color: $color;
-}
+@import "./base/normalize";
+@import "./components/common";
+@import "./components/sections";
+@import "./components/current";
+@import "./components/logo";
+@import "./components/button";
+@import "./components/mail";
+@import "./components/container";
+@import "./components/hero";
+@import "./components/qualities-list";
+@import "./components/we-doing-list";
+@import "./components/social-links";
+@import "./components/team-list";
+@import "./components/card";
+@import "./components/page-footer";
+@import "./components/link";
+@import "./components/icon";
+@import "./components/portfolio";
+@import "./components/client-list";
+@import "./components/modal";
